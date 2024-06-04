@@ -1,0 +1,4 @@
+.ds-header-client {
+    background-color: var(--ds-color-bg-secondary);
+    color: var(--ds-color-bg-primary);
+  }

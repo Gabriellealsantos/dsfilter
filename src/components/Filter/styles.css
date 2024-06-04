@@ -1,0 +1,38 @@
+.card {
+    background-color: var(--ds-color-bg-primary);
+    width: 93%;
+    height: 200px;
+    border-radius: 5px;
+    margin: 20px 70px;
+}
+
+.container-card {
+    padding: 20px;
+}
+
+.ds-search-bar {
+    height: 40px;
+    display: flex;
+}
+
+.ds-search-bar input {
+    width: 200px;
+    padding: 0 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid var(--ds-color-bg-tertiary);
+}
+
+.ds-search-bar input:focus {
+    outline: none;
+}
+
+.ds-search-bar input::placeholder {
+    color: var(red);
+}
+
+.ds-search-btn {
+    border: none;
+    background-color: var(--ds-color-bg-secondary);
+    color: var(--ds-color-font-tertiary);
+}
