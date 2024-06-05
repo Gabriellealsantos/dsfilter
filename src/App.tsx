@@ -1,8 +1,9 @@
 import './App.css'
 import Header from './components/Header'
-import ListingBody from './routes/ListingBody'
+import ListingBody from './components/ListingBody'
 
 function App() {
+
 
   return (
     <>
